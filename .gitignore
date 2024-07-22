@@ -1,0 +1,94 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+venv.bak/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore pyenv
+.python-version
+
+# Ignore pipenv
+Pipfile.lock
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore pytest
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ignore editable installations
+*.egg-info/
+*.eggs/
+.installed.cfg
+
+# Ignore dist files
+dist/
+build/
+*.egg
+.eggs/
+sdist/
+wheels/
+
+# Ignore local .env files
+.env
+.env.*
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.orig
+*.bk
+
+# Ignore specific files
+test-results.xml
+coverage/
+.coverage
+coverage.*
+.cache
+
+# Ignore SQLite database files
+*.sqlite3
+*.db
+
+# Ignore node modules (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore babel cache (if applicable)
+.babel.json
